@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Introduction to the DOM Lab</title>
-  </head>
-  <body>
-    <!--Copy the lesson's example code here-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Introduction to the DOM Lab</title>
+</head>
+
+<body>
+  <!-- <body>
+    <div>Hello!</div>
+    <div>Goodbye!</div>
   </body>
+   -->
+
+   <!-- <body>
+    <div>
+      <ul class="ranked-list">
+        <li>1</li>
+        <li>
+          <div>
+            <ul>
+              <li>2</li>
+            </ul>
+          </div>
+        </li>
+        <li>3</li>
+      </ul>
+    </div>
+  
+    <div>
+      <ul class="unranked-list">
+        <li>6</li>
+        <li>2</li>
+        <li>
+          <div>4</div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</body> -->
+
+<body>
+  <main id="app">
+    <ul class="ranked-list">
+      <li>1</li>
+      <li>2</li>
+    </ul>
+
+    <ul class="ranked-list">
+      <li>10</li>
+      <li>11</li>
+    </ul>
+  </main>
+</body>
+
 </html>
+
+<!-- Finding Nested Nodes -->
+<!-- querySelector()
+takes one argument, a string of one or more CSS-compatible  to an external site., and returns the first
+element that matches. -->
+
+<!-- li 2
+const li2 = document.querySelector("ul.ranked-list li ul li");
+li2;
+
+div 4
+const div4 = document.querySelector("ul.unranked-list li div")
+div4 -->
